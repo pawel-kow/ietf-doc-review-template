@@ -1,0 +1,4 @@
+ietf-reviewtool
+# hishel 2.x removed BaseFilter/FilterPolicy, which ietf-reviewtool 0.7.0 imports
+hishel[async,httpx]<2
+pyyaml

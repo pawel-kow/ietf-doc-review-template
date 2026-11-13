@@ -1,0 +1,14 @@
+meeting: 127
+# Agendas go to <output_dir>/<meeting>/<WG>/agenda.md, drafts into per-section subfolders.
+output_dir: IETF
+# Extra arguments passed to `ietf-reviewtool fetch`, e.g. ["--no-fetch-writeups"].
+fetch_args: ["--no-fetch-xml", "--no-fetch-writeups"]
+wgs:
+  - REGEXT
+  - RPP
+  - DNSOP
+  - DAWN
+  - WEBBOTAUTH
+  - ACME
+  - OAUTH
+  - HTTPAPI
